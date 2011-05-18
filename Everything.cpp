@@ -5,7 +5,6 @@
 #define EVERYTHINGUSERAPI __declspec(dllexport)
 
 // include
-#include "stdafx.h"
 #include "Everything.h"
 #include "Everything_IPC.h"
 
