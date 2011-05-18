@@ -9,18 +9,17 @@
 // Everything 1.2.1.371
 // http://www.voidtools.com/
 // http://support.voidtools.com/everything/SDK
+#include "everything.h"
+// Launchy
 #include "catalog.h"
 #include "catalog_types.h"
 #include "directory.h"
-#include "everything.h"
 
 #ifdef _DEBUG
 #pragma comment(lib, "QtMaind.lib")
 #pragma comment(lib, "QtCored4.lib")
-#pragma comment(lib, "QtCored4.lib")
 #else
 #pragma comment(lib, "QtMain.lib")
-#pragma comment(lib, "QtCore4.lib")
 #pragma comment(lib, "QtCore4.lib")
 #endif
 
